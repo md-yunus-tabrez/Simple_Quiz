@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href="app.css" />
+    <title>Quiz</title>
+</head>
+
+<body>
+    <div class="paper">
+        <header>
+            <h1>The Quiz App</h1>
+            <p>multiple choice questions</p>
+        </header>
+        <section>
+            <div id='results'></div>
+
+            <form name='quizform' onsubmit="return submitAnswer()">
+
+                <h3>1 . in which html element do we put in javascript code?</h3>
+                <input type="radio" name='q1' value='a' id='q1a' />a .&lt;js&gt;<br />
+                <input type="radio" name='q1' value='b' id='q1b' />b .&lt;script&gt;<br />
+                <input type="radio" name='q1' value='c' id='q1c' />c .&lt;body&gt;<br />
+                <input type="radio" name='q1' value='d' id='q1d' />d .&lt;link&gt; <br />
+
+                <h3>2 . which HTML attribute is used to reference an external javascript file?</h3>
+                <input type="radio" name='q2' value='a' id='q2a' />a. src<br />
+                <input type="radio" name='q2' value='b' id='q2b' />b .rel<br />
+                <input type="radio" name='q2' value='c' id='q2c' />c .type<br />
+                <input type="radio" name='q2' value='d' id='q2d' />d .href <br />
+
+                <h3>3 . how would you write Hello in alert box?</h3>
+                <input type="radio" name='q3' value='a' id='q3a' />a .msg("hello")<br />
+                <input type="radio" name='q3' value='b' id='q3b' />b .alertbox("hello")<br />
+                <input type="radio" name='q3' value='c' id='q3c' />c .document.write("hello")<br />
+                <input type="radio" name='q3' value='d' id='q3d' />d .alert('hello') <br />
+
+                <h3>4 . Javascript is directly related to the "java" programming language</h3>
+                <input type="radio" name='q4' value='a' id='q4a' />a True<br />
+                <input type="radio" name='q4' value='b' id='q4b' />b False<br />
+
+                <input type='submit' value="submit">
+            </form>
+
+        </section>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
